@@ -1,0 +1,71 @@
+<!--HC 6.2-->
+<Root>
+    <GlobalData>
+        <ColorTable size="12" data="0.3137255012989044189 0.3137255012989044189 0.3137255012989044189 0.8549019694328308105 0.8901960849761962891 0.8784313797950744629 0.5333333611488342285 0.3882353007793426514 0.2156862765550613403 0.5 0.5 0.5"/>
+        <Style ColorIndex="0" Width="0.1000000014901161194"/>
+        <Style ColorIndex="3" Transparency="38" Width="0.1000000014901161194"/>
+        <Style ColorIndex="6" Width="0.1000000014901161194"/>
+        <Style ColorIndex="0" Width="0.1000000014901161194"/>
+        <Style ColorIndex="3" Transparency="38" Width="0.1000000014901161194"/>
+        <Style ColorIndex="6" Width="0.1000000014901161194"/>
+        <Style ColorIndex="9" Width="0.1000000014901161194"/>
+    </GlobalData>
+    <ModelFile>
+        <ProductOccurence Id="0" Name="wallwithwindow" Behaviour="1" Children="1" Unit="1.000000" IsPart="false"/>
+        <ProductOccurence Id="1" Name="Project  Number" Style="6" Behaviour="1" FilePath="c:\itwo40\model\development\converter\2018-sp0-u0\resourses\wallwithwindow.ifc" Children="2" IsPart="false">
+            <Attributes>
+                <Attr Name="TYPE" Type="String" Value="IFCPROJECT"/>
+                <Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+            </Attributes>
+        </ProductOccurence>
+        
+        <ProductOccurence Id="4" Name="Level 1" Style="65535" Behaviour="1" Children="5 6" IsPart="false">
+            <Attributes>
+                <Attr Name="TYPE" Type="String" Value="IFCBUILDINGSTOREY"/>
+            </Attributes>
+        </ProductOccurence>
+        <ProductOccurence Id="5" Name="IFCWALLSTANDARDCASE" Style="65535" Behaviour="1" Children="7" IsPart="false"/>
+        <ProductOccurence Id="7" Name="Basic Wall:Generic - 200mm:249" Style="65535" Behaviour="1" InstanceRef="9" IsPart="true">
+            <Transformation RelativeTransfo="0.9816271662712097168 0.1908089965581893921 0 0 -0.1908089965581893921 0.9816271662712097168 0 0 0 -0 1 0 929.77789306640625 2581.06005859375 0 1"/>
+            <Attributes>
+                <Attr Name="IFCWALLSTANDARDCASE/ObjectType" Type="String" Value="Basic Wall:Generic - 200mm:249"/>
+            </Attributes>
+            <BodyInstance Id="12" Name="" Behaviour="1" BodyRef="10"/>
+            <BodyInstance Id="13" Name="" Behaviour="1" BodyRef="11"/>
+        </ProductOccurence>
+        <ProductOccurence Id="9" Name="" Behaviour="1" IsPart="true">
+            <PartDefinition Id="8" Name="" Behaviour="1">
+                <Body Id="10" Name="" Style="3" Behaviour="1"/>
+                <Body Id="11" Name="" Style="65535" Behaviour="1"/>
+            </PartDefinition>
+        </ProductOccurence>
+        <ProductOccurence Id="6" Name="IFCWINDOW" Style="65535" Behaviour="1" Children="14" IsPart="false"/>
+        <ProductOccurence Id="14" Name="0406 x 0610mm" Style="65535" Behaviour="1" InstanceRef="16" IsPart="true">
+            <Transformation RelativeTransfo="-0.9816271662712097168 -0.1908089965581893921 0 0 0.1908089965581893921 -0.9816271662712097168 0 0 0 0 1 0 3564.03515625 3194.9794921875 3968.111328125 1"/>
+            <Attributes>
+            </Attributes>
+            <BodyInstance Id="21" Name="" Behaviour="1" BodyRef="17">
+                <Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 203 159 63 1"/>
+            </BodyInstance>
+            <BodyInstance Id="22" Name="" Behaviour="1" BodyRef="18">
+                <Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 137 305 1"/>
+            </BodyInstance>
+            <BodyInstance Id="23" Name="" Behaviour="1" BodyRef="19">
+                <Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 137 305 1"/>
+            </BodyInstance>
+            <BodyInstance Id="24" Name="" Behaviour="1" BodyRef="20">
+                <Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 0 305 1"/>
+            </BodyInstance>
+        </ProductOccurence>
+        <ProductOccurence Id="16" Name="" Behaviour="1" IsPart="true">
+            <PartDefinition Id="15" Name="" Behaviour="1">
+                <Body Id="17" Name="" Style="4" Behaviour="1"/>
+                <Body Id="18" Name="" Style="5" Behaviour="1"/>
+                <Body Id="19" Name="" Style="5" Behaviour="1"/>
+                <Body Id="20" Name="" Style="5" Behaviour="1"/>
+            </PartDefinition>
+        </ProductOccurence>
+    </ModelFile>
+</Root>
+
+

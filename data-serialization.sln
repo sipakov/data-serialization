@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-serialization", "data-serialization\data-serialization.csproj", "{B31C6621-EA02-4D0F-8692-47EEF9EAC07E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{F37E80A7-5737-4594-AD80-6D8C6A6915B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B31C6621-EA02-4D0F-8692-47EEF9EAC07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31C6621-EA02-4D0F-8692-47EEF9EAC07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31C6621-EA02-4D0F-8692-47EEF9EAC07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F37E80A7-5737-4594-AD80-6D8C6A6915B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37E80A7-5737-4594-AD80-6D8C6A6915B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37E80A7-5737-4594-AD80-6D8C6A6915B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37E80A7-5737-4594-AD80-6D8C6A6915B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

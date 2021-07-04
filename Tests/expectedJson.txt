@@ -1,0 +1,104 @@
+[
+{
+"Id": "0",
+"Name": "wallwithwindow",
+"Behaviour": "1",
+"Children": "1",
+"Unit": "1.000000",
+"IsPart": "false",
+"Props": []
+},
+{
+"Id": "1",
+"Name": "Project  Number",
+"Style": "6",
+"Behaviour": "1",
+"FilePath": "c:\\itwo40\\model\\development\\converter\\2018-sp0-u0\\resourses\\wallwithwindow.ifc",
+"Children": "2",
+"IsPart": "false",
+"Props": [
+{
+"Name": "TYPE",
+"Type": "String",
+"Value": "IFCPROJECT"
+},
+{
+"Name": "OWNERHISTORY/OwningUser/GivenName",
+"Type": "String",
+"Value": "demin"
+}
+]
+},
+{
+"Id": "4",
+"Name": "Level 1",
+"Style": "65535",
+"Behaviour": "1",
+"Children": "5 6",
+"IsPart": "false",
+"Props": [
+{
+"Name": "TYPE",
+"Type": "String",
+"Value": "IFCBUILDINGSTOREY"
+}
+]
+},
+{
+"Id": "5",
+"Name": "IFCWALLSTANDARDCASE",
+"Style": "65535",
+"Behaviour": "1",
+"Children": "7",
+"IsPart": "false",
+"Props": []
+},
+{
+"Id": "7",
+"Name": "Basic Wall:Generic - 200mm:249",
+"Style": "65535",
+"Behaviour": "1",
+"InstanceRef": "9",
+"IsPart": "true",
+"Props": [
+{
+"Name": "IFCWALLSTANDARDCASE/ObjectType",
+"Type": "String",
+"Value": "Basic Wall:Generic - 200mm:249"
+}
+]
+},
+{
+"Id": "9",
+"Name": "",
+"Behaviour": "1",
+"IsPart": "true",
+"Props": []
+},
+{
+"Id": "6",
+"Name": "IFCWINDOW",
+"Style": "65535",
+"Behaviour": "1",
+"Children": "14",
+"IsPart": "false",
+"Props": []
+},
+{
+"Id": "14",
+"Name": "0406 x 0610mm",
+"Style": "65535",
+"Behaviour": "1",
+"InstanceRef": "16",
+"IsPart": "true",
+"Props": [
+]
+},
+{
+"Id": "16",
+"Name": "",
+"Behaviour": "1",
+"IsPart": "true",
+"Props": []
+}
+]
