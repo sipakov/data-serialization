@@ -1,0 +1,187 @@
+<!--HC 6.2-->
+<Root>
+	<GlobalData>
+		<ColorTable size="12" data="0.3137255012989044189 0.3137255012989044189 0.3137255012989044189 0.8549019694328308105 0.8901960849761962891 0.8784313797950744629 0.5333333611488342285 0.3882353007793426514 0.2156862765550613403 0.5 0.5 0.5"/>
+		<Style ColorIndex="0" Width="0.1000000014901161194"/>
+		<Style ColorIndex="3" Transparency="38" Width="0.1000000014901161194"/>
+		<Style ColorIndex="6" Width="0.1000000014901161194"/>
+		<Style ColorIndex="0" Width="0.1000000014901161194"/>
+		<Style ColorIndex="3" Transparency="38" Width="0.1000000014901161194"/>
+		<Style ColorIndex="6" Width="0.1000000014901161194"/>
+		<Style ColorIndex="9" Width="0.1000000014901161194"/>
+	</GlobalData>
+	<ModelFile>
+		<ProductOccurence Id="0" Name="wallwithwindow" Behaviour="1" Children="1" Unit="1.000000" IsPart="false"/>
+		<ProductOccurence Id="1" Name="Project  Number" Style="6" Behaviour="1" FilePath="c:\itwo40\model\development\converter\2018-sp0-u0\resourses\wallwithwindow.ifc" Children="2" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCPROJECT"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="IFCPROJECT/Name" Type="String" Value="Project  Number"/>
+				<Attr Name="IFCPROJECT/GlobalId" Type="String" Value="2SmCYuElbFHQwb3RrxMmw9"/>
+				<Attr Name="IFCPROJECT/LongName" Type="String" Value="Project Name"/>
+				<Attr Name="IFCPROJECT/Phase" Type="String" Value="Project  Status"/>
+				<Attr Name="IFCPROJECT/LENGTHUNIT" Type="String" Value="MILLI METRE"/>
+				<Attr Name="IFCPROJECT/AREAUNIT" Type="String" Value="SQUARE_METRE"/>
+				<Attr Name="IFCPROJECT/VOLUMEUNIT" Type="String" Value="CUBIC_METRE"/>
+				<Attr Name="IFCPROJECT/MASSUNIT" Type="String" Value="KILO GRAM"/>
+				<Attr Name="IFCPROJECT/TIMEUNIT" Type="String" Value="SECOND"/>
+				<Attr Name="IFCPROJECT/FREQUENCYUNIT" Type="String" Value="HERTZ"/>
+				<Attr Name="IFCPROJECT/THERMODYNAMICTEMPERATUREUNIT" Type="String" Value="DEGREE_CELSIUS"/>
+				<Attr Name="IFCPROJECT/ELECTRICCURRENTUNIT" Type="String" Value="AMPERE"/>
+				<Attr Name="IFCPROJECT/ELECTRICVOLTAGEUNIT" Type="String" Value="VOLT"/>
+				<Attr Name="IFCPROJECT/POWERUNIT" Type="String" Value="WATT"/>
+				<Attr Name="IFCPROJECT/FORCEUNIT" Type="String" Value="KILO NEWTON"/>
+				<Attr Name="IFCPROJECT/ILLUMINANCEUNIT" Type="String" Value="LUX"/>
+				<Attr Name="IFCPROJECT/LUMINOUSFLUXUNIT" Type="String" Value="LUMEN"/>
+				<Attr Name="IFCPROJECT/LUMINOUSINTENSITYUNIT" Type="String" Value="CANDELA"/>
+				<Attr Name="IFCPROJECT/PRESSUREUNIT" Type="String" Value="PASCAL"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="2" Name="Default" Style="65535" Behaviour="1" Children="3" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCSITE"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="IFCSITE/Name" Type="String" Value="Default"/>
+				<Attr Name="IFCSITE/GlobalId" Type="String" Value="2SmCYuElbFHQwb3RrxMmwB"/>
+				<Attr Name="IFCSITE/CompositionType" Type="String" Value="ELEMENT"/>
+				<Attr Name="IFCSITE/Latitude" Type="String" Value='42°21&apos;31"181945'/>
+				<Attr Name="IFCSITE/Longitude" Type="String" Value='-71°-3&apos;-24"-263305'/>
+				<Attr Name="IFCSITE/Elevation" Type="Float" Value="0.000000"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="3" Name="" Style="65535" Behaviour="1" Children="4" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCBUILDING"/>
+				<Attr Name="Pset_BuildingCommon/NumberOfStoreys" Type="Int" Value="1"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="IFCBUILDING/GlobalId" Type="String" Value="2SmCYuElbFHQwb3RrxMmw8"/>
+				<Attr Name="IFCBUILDING/CompositionType" Type="String" Value="ELEMENT"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="4" Name="Level 1" Style="65535" Behaviour="1" Children="5 6" IsPart="false">
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCBUILDINGSTOREY"/>
+				<Attr Name="Pset_BuildingStoreyCommon/AboveGround" Type="String" Value="U"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="IFCBUILDINGSTOREY/Name" Type="String" Value="Level 1"/>
+				<Attr Name="IFCBUILDINGSTOREY/GlobalId" Type="String" Value="2SmCYuElbFHQwb3Rs4fC9s"/>
+				<Attr Name="IFCBUILDINGSTOREY/CompositionType" Type="String" Value="ELEMENT"/>
+				<Attr Name="IFCBUILDINGSTOREY/Elevation" Type="Float" Value="0.000000"/>
+			</Attributes>
+		</ProductOccurence>
+		<ProductOccurence Id="5" Name="IFCWALLSTANDARDCASE" Style="65535" Behaviour="1" Children="7" IsPart="false"/>
+		<ProductOccurence Id="7" Name="Basic Wall:Generic - 200mm:249" Style="65535" Behaviour="1" InstanceRef="9" IsPart="true">
+			<Transformation RelativeTransfo="0.9816271662712097168 0.1908089965581893921 0 0 -0.1908089965581893921 0.9816271662712097168 0 0 0 -0 1 0 929.77789306640625 2581.06005859375 0 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWALLSTANDARDCASE"/>
+				<Attr Name="Pset_WallCommon/Reference" Type="String" Value="Generic - 200mm"/>
+				<Attr Name="Pset_WallCommon/LoadBearing" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/ExtendToStructure" Type="String" Value="F"/>
+				<Attr Name="Pset_WallCommon/IsExternal" Type="String" Value="T"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="MATERIAL/Name" Type="String" Value="Default Wall"/>
+				<Attr Name="MATERIALLAYER/LayerThickness" Type="Float" Value="200.000000"/>
+				<Attr Name="MATERIALLAYERSET/LayerSetName" Type="String" Value="Basic Wall:Generic - 200mm"/>
+				<Attr Name="MATERIALLAYERSETUSAGE/LayerSetDirection" Type="String" Value=".AXIS2."/>
+				<Attr Name="MATERIALLAYERSETUSAGE/DirectionSense" Type="String" Value=".NEGATIVE."/>
+				<Attr Name="MATERIALLAYERSETUSAGE/OffsetFromReferenceLine" Type="Float" Value="100.000000"/>
+				<Attr Name="IFCWALLTYPE/Name" Type="String" Value="Basic Wall:Generic - 200mm"/>
+				<Attr Name="IFCWALLTYPE/GlobalId" Type="String" Value="2JF5JWaxWHqu3u0C1FZlpB"/>
+				<Attr Name="IFCWALLTYPE/Tag" Type="String" Value="249"/>
+				<Attr Name="IFCWALLTYPE/PredefinedType" Type="String" Value=".STANDARD."/>
+				<Attr Name="IFCWALLSTANDARDCASE/Name" Type="String" Value="Basic Wall:Generic - 200mm:199415"/>
+				<Attr Name="IFCWALLSTANDARDCASE/GlobalId" Type="String" Value="10eq_Wfwj0CPKzXVgjL6CZ"/>
+				<Attr Name="IFCWALLSTANDARDCASE/ObjectType" Type="String" Value="Basic Wall:Generic - 200mm:249"/>
+				<Attr Name="IFCWALLSTANDARDCASE/Tag" Type="String" Value="199415"/>
+			</Attributes>
+			<BodyInstance Id="12" Name="" Behaviour="1" BodyRef="10"/>
+			<BodyInstance Id="13" Name="" Behaviour="1" BodyRef="11"/>
+		</ProductOccurence>
+		<ProductOccurence Id="9" Name="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="8" Name="" Behaviour="1">
+				<Body Id="10" Name="" Style="3" Behaviour="1"/>
+				<Body Id="11" Name="" Style="65535" Behaviour="1"/>
+			</PartDefinition>
+		</ProductOccurence>
+		<ProductOccurence Id="6" Name="IFCWINDOW" Style="65535" Behaviour="1" Children="14" IsPart="false"/>
+		<ProductOccurence Id="14" Name="0406 x 0610mm" Style="65535" Behaviour="1" InstanceRef="16" IsPart="true">
+			<Transformation RelativeTransfo="-0.9816271662712097168 -0.1908089965581893921 0 0 0.1908089965581893921 -0.9816271662712097168 0 0 0 0 1 0 3564.03515625 3194.9794921875 3968.111328125 1"/>
+			<Attributes>
+				<Attr Name="TYPE" Type="String" Value="IFCWINDOW"/>
+				<Attr Name="Pset_WindowCommon/IsExternal" Type="String" Value="T"/>
+				<Attr Name="Pset_WindowCommon/Reference" Type="String" Value="0406 x 0610mm"/>
+				<Attr Name="OWNERHISTORY/OwningUser/GivenName" Type="String" Value="demin"/>
+				<Attr Name="OWNERHISTORY/Name" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/Version" Type="String" Value="2017"/>
+				<Attr Name="OWNERHISTORY/ApplicationFullName" Type="String" Value="Autodesk Revit 2017 (ENU)"/>
+				<Attr Name="OWNERHISTORY/ApplicationIdentifier" Type="String" Value="Revit"/>
+				<Attr Name="OWNERHISTORY/ChangeAction" Type="String" Value="NOCHANGE"/>
+				<Attr Name="OWNERHISTORY/CreationDate" Type="Time" Value="0"/>
+				<Attr Name="IFCWINDOWSTYLE/Name" Type="String" Value="0406 x 0610mm"/>
+				<Attr Name="IFCWINDOWSTYLE/GlobalId" Type="String" Value="10eq_Wfwj0CPKzXU_jL69_"/>
+				<Attr Name="IFCWINDOWSTYLE/Tag" Type="String" Value="53700"/>
+				<Attr Name="IFCWINDOWSTYLE/ConstructionType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWINDOWSTYLE/OperationType" Type="String" Value=".NOTDEFINED."/>
+				<Attr Name="IFCWINDOWSTYLE/ParameterTakesPrecedence" Type="String" Value="F"/>
+				<Attr Name="IFCWINDOWSTYLE/Sizeable" Type="String" Value="F"/>
+				<Attr Name="IFCWINDOW/Name" Type="String" Value="M_Fixed:0406 x 0610mm:199552"/>
+				<Attr Name="IFCWINDOW/GlobalId" Type="String" Value="10eq_Wfwj0CPKzXVgjL69K"/>
+				<Attr Name="IFCWINDOW/ObjectType" Type="String" Value="0406 x 0610mm"/>
+				<Attr Name="IFCWINDOW/Tag" Type="String" Value="199552"/>
+				<Attr Name="IFCWINDOW/OverallHeight" Type="Float" Value="610.000000"/>
+				<Attr Name="IFCWINDOW/OverallWidth" Type="Float" Value="406.000000"/>
+			</Attributes>
+			<BodyInstance Id="21" Name="" Behaviour="1" BodyRef="17">
+				<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 203 159 63 1"/>
+			</BodyInstance>
+			<BodyInstance Id="22" Name="" Behaviour="1" BodyRef="18">
+				<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 137 305 1"/>
+			</BodyInstance>
+			<BodyInstance Id="23" Name="" Behaviour="1" BodyRef="19">
+				<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 137 305 1"/>
+			</BodyInstance>
+			<BodyInstance Id="24" Name="" Behaviour="1" BodyRef="20">
+				<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 203 0 305 1"/>
+			</BodyInstance>
+		</ProductOccurence>
+		<ProductOccurence Id="16" Name="" Behaviour="1" IsPart="true">
+			<PartDefinition Id="15" Name="" Behaviour="1">
+				<Body Id="17" Name="" Style="4" Behaviour="1"/>
+				<Body Id="18" Name="" Style="5" Behaviour="1"/>
+				<Body Id="19" Name="" Style="5" Behaviour="1"/>
+				<Body Id="20" Name="" Style="5" Behaviour="1"/>
+			</PartDefinition>
+		</ProductOccurence>
+	</ModelFile>
+</Root>
+
