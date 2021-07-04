@@ -35,6 +35,8 @@ namespace data_serialization
             var isSuccessConverted = await StartConverting(pathToTargetXml, pathToOutputJson, provider);
             if (isSuccessConverted)
                 Console.WriteLine("Xml converted to json successfully");
+            
+            Console.ReadLine();
         }
 
         private static async Task<bool> StartConverting(string pathToTargetXml, string pathToOutputJson, IServiceProvider provider)
