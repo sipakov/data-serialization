@@ -1,11 +1,11 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6a2b8b76_002Da48a_002D47b7_002Da6a0_002D8621aef6afd8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CommonTestThatXmlConvertedToJson" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::F37E80A7-5737-4594-AD80-6D8C6A6915B5::net5.0::Tests.XmlToJsonConverterTests.CommonTestThatXmlConvertedToJson&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6a2b8b76_002Da48a_002D47b7_002Da6a0_002D8621aef6afd8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CommonTestThatXmlConvertedToJson" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F37E80A7-5737-4594-AD80-6D8C6A6915B5::net5.0::Tests.XmlToJsonConverterTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e70c5a32_002D2ee4_002D45de_002Da22a_002D2f82be856b7d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CommonTestThatXmlConvertedToJson #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::F37E80A7-5737-4594-AD80-6D8C6A6915B5::net5.0::Tests.XmlToJsonConverterTests.CommonTestThatXmlConvertedToJson&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e70c5a32_002D2ee4_002D45de_002Da22a_002D2f82be856b7d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CommonTestThatXmlConvertedToJson #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::F37E80A7-5737-4594-AD80-6D8C6A6915B5::net5.0::Tests.XmlToJsonConverterTests.CommonTestThatXmlConvertedToJson&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

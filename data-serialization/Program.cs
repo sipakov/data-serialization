@@ -19,12 +19,13 @@ namespace data_serialization
             var pathToTargetXml = Path.Combine(Environment.CurrentDirectory, "test.xml");
             var pathToOutputJson = Path.Combine(Environment.CurrentDirectory, "output.json");
 
-            Console.Write("To start process press any key");
+            Console.WriteLine("To start process press any key");
             Console.ReadKey();
 
             if (!File.Exists(pathToTargetXml))
             {
                 Console.WriteLine("Target xml file not found");
+                Console.ReadKey();
             }
 
             if (File.Exists(pathToOutputJson))

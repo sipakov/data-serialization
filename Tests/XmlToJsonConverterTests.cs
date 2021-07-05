@@ -25,7 +25,7 @@ namespace Tests
             var pathToOutputJson = Path.Combine(Environment.CurrentDirectory, "outputTestFile.json");
             var pathToExpectedJson = Path.Combine(Environment.CurrentDirectory, "expectedJson.json");
 
-            var expectedString = await File.ReadAllTextAsync(pathToExpectedJson);
+            var expectedString = (await File.ReadAllTextAsync(pathToExpectedJson)).Replace("\r", "");
 
             // Act
             var _ = await _xmlToJsonConverter.Convert(pathToXml, pathToOutputJson);
@@ -33,7 +33,6 @@ namespace Tests
             var convertedJsonDocumentInString = await File.ReadAllTextAsync(pathToOutputJson);
             
             Assert.AreEqual(expectedString, convertedJsonDocumentInString);
-
         }
     }
 }
